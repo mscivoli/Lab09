@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.borders.BordersController">
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.borders.BordersController">
    <top>
       <Label text="Country Borders" BorderPane.alignment="CENTER">
          <font>
@@ -31,7 +31,7 @@
                         <Insets left="10.0" />
                      </HBox.margin></Label>
                   <TextField fx:id="txtAnno" alignment="TOP_LEFT" prefWidth="150.0" />
-                  <Button mnemonicParsing="false" onAction="#doCalcolaConfini" text="Calcola confini">
+                  <Button fx:id="btnCalcola" mnemonicParsing="false" onAction="#doCalcolaConfini" text="Calcola confini">
                      <HBox.margin>
                         <Insets left="20.0" />
                      </HBox.margin></Button>
